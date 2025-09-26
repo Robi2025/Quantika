@@ -5,21 +5,21 @@
       <stop offset="100%" stop-color="#00FF88"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="4.5" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feGaussianBlur stdDeviation="4.2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
   <rect width="1600" height="400" fill="#05060d"/>
-  <image href="tron-grid.png" x="0" y="0" width="1600" height="400" opacity="0.28"/>
+  <rect x="0" y="250" width="1600" height="150" fill="#05131a"/>
+  <g opacity="0.25">
+    <rect x="0" y="0" width="1600" height="400" fill="url(#g)" opacity="0.06"/>
+  </g>
   <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle"
         font-family="Orbitron, Arial Black, sans-serif" font-size="88" fill="url(#g)" filter="url(#glow)">
-    QUANTIKA — TRON ARES EDITION
+    QUANTIKA — ARES '25 EDITION
   </text>
   <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle"
-        font-family="Share Tech Mono, monospace" font-size="28" fill="#E0E0FF" opacity="0.9">
-    Neon cyber grid • Holographic glow • Futuristic console
+        font-family="Share Tech Mono, monospace" font-size="26" fill="#E0E0FF" opacity="0.9">
+    Neon grid • Holographic glow • 2025-inspired cyber aesthetic
   </text>
 </svg>
