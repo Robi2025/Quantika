@@ -1,10 +1,33 @@
-# Quantika — un mini lenguaje con IA educativa
+# 🌌 Quantika — un mini lenguaje con IA educativa
 
-**Quantika** es un lenguaje de programación inventado, sencillo y amigable para aprender y hacer demostraciones.  
-Combina una sintaxis súper simple con algunas funciones *tipo IA* integradas en Python puro (sin dependencias externas).  
-Perfecto para publicarlo en GitHub como tu propio experimento de lenguaje. ✨
+![Language](https://img.shields.io/badge/language-Quantika-9A4DFF?style=for-the-badge&logo=github)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-experimental-orange?style=for-the-badge)
 
-> Nota: Las funciones de “IA” son educativas: usan técnicas básicas (bolsa de palabras, reglas y similitud coseno) para correr en cualquier computador sin instalar modelos pesados.
+---
+
+## 🚀 Página Oficial
+👉 [Ver página de Quantika](https://robi2025.github.io/Quantika/)
+
+---
+
+## 🎨 Identidad Visual
+Quantika incluye su propio kit visual:  
+
+- ![Paleta](assets/palette.png)  
+- Logo animado:  
+  ![Logo Quantika](assets/quantika-logo.gif)
+
+---
+
+## 🎬 Video Demo
+Aquí un trailer mostrando la ejecución de Quantika:  
+
+https://github.com/robi2025/Quantika/raw/main/assets/quantika-demo.mp4
+
+*(Consejo: abre el link para ver el video, GitHub no reproduce mp4 en línea)*
+
+---
 
 ## 🚀 Ejemplo rápido
 
@@ -36,26 +59,4 @@ python quantika.py run examples/ai_demo.qk
 
 ---
 
-## ⚙️ Instalación
-
-Requiere **Python 3.9+**. No necesita librerías externas.
-
----
-
-## 🤖 Funciones integradas de “IA”
-
-- `ai.classify` → Clasificación de texto con reglas.  
-- `ai.generate` → Respuesta a prompts con plantillas.  
-- `ai.similarity` → Similitud coseno 0..1.  
-- `memory.store` / `memory.recall` → Guardar y recuperar memoria.
-
----
-
-💙 Hecho con cariño por **ti**.  
-¡Mejora Quantika y compártelo con el mundo!
-
----
-
-👉 [![Ver página oficial](https://img.shields.io/badge/🌐_Ver%20página%20oficial-Quantika-9A4DFF?style=for-the-badge)](https://robi2025.github.io/Quantika/)
-
----
+💙 Hecho con cariño por **ti**. Licencia MIT.

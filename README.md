@@ -1,10 +1,33 @@
-# Quantika — a tiny AI-flavored toy language
+# 🌌 Quantika — a tiny AI-flavored toy language
 
-**Quantika** is a tiny, beginner-friendly programming language invented for learning and demos.
-It mixes super simple syntax with a few *AI-like* built-ins implemented in pure Python (no external deps).  
-Perfect to publish on GitHub as your very own language experiment. ✨
+![Language](https://img.shields.io/badge/language-Quantika-9A4DFF?style=for-the-badge&logo=github)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-experimental-orange?style=for-the-badge)
 
-> Note: The “AI” functions are educational: they use basic techniques (bag of words, rules, cosine similarity) to run anywhere without heavy models.
+---
+
+## 🚀 Official Website
+👉 [Visit Quantika Website](https://robi2025.github.io/Quantika/)
+
+---
+
+## 🎨 Visual Identity
+Quantika comes with its own visual identity kit!
+
+- ![Palette](assets/palette.png)
+- Animated logo:  
+  ![Quantika Logo](assets/quantika-logo.gif)
+
+---
+
+## 🎬 Demo Video
+Here is a short demo of Quantika execution:  
+
+https://github.com/robi2025/Quantika/raw/main/assets/quantika-demo.mp4
+
+*(Tip: open link to view video, GitHub doesn’t autoplay mp4 inline)*
+
+---
 
 ## Quick Example
 
@@ -34,18 +57,6 @@ python quantika.py run examples/hello.qk
 python quantika.py run examples/ai_demo.qk
 ```
 
-## Features
-
-- Minimal syntax (`let`, `print`, lists, comments).
-- Built-in “AI” commands: classify, generate, similarity, memory store/recall.
-- Educational, no dependencies.
-
 ---
 
-Made with 💙 by **you**. Open-source MIT.
-
----
-
-👉 [![View Official Page](https://img.shields.io/badge/🌐_View%20Official%20Page-Quantika-9A4DFF?style=for-the-badge)](https://robi2025.github.io/Quantika/)
-
----
+💙 Made with love by **you**. MIT License.

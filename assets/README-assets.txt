@@ -1,0 +1,1 @@
+Aquí van los archivos multimedia: quantika-logo.gif, quantika-logo.mp4, quantika-demo.mp4, palette.png, etc.
