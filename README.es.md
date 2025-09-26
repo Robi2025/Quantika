@@ -1,9 +1,61 @@
-# Quantika (ES)
+# Quantika — un mini lenguaje con IA educativa
 
-Lenguaje de programación experimental.
+**Quantika** es un lenguaje de programación inventado, sencillo y amigable para aprender y hacer demostraciones.  
+Combina una sintaxis súper simple con algunas funciones *tipo IA* integradas en Python puro (sin dependencias externas).  
+Perfecto para publicarlo en GitHub como tu propio experimento de lenguaje. ✨
+
+> Nota: Las funciones de “IA” son educativas: usan técnicas básicas (bolsa de palabras, reglas y similitud coseno) para correr en cualquier computador sin instalar modelos pesados.
+
+## 🚀 Ejemplo rápido
+
+**`examples/hello.qk`**
+```qk
+print "Hola Quantika!"
+let nombre = "Viviana"
+print "Bienvenida, {nombre}"
+```
+
+**`examples/ai_demo.qk`**
+```qk
+labels = ["positivo","negativo","neutro"]
+ai.classify text: "este servicio es excelente", labels: labels -> sentimiento
+print "Sentimiento: {sentimiento}"
+
+ai.generate prompt: "Consejo para ahorrar energía en el condominio" -> idea
+print "Idea: {idea}"
+
+ai.similarity a: "perro en pasillo de acceso", b: "mascota en entrada peatonal" -> sim
+print "Similitud: {sim}"
+```
+
+Ejecuta ambos:
+```bash
+python quantika.py run examples/hello.qk
+python quantika.py run examples/ai_demo.qk
+```
 
 ---
 
-👉 [![Ver página oficial](https://img.shields.io/badge/🌐_Ver%20página%20oficial-Quantika-9A4DFF?style=for-the-badge)](https://TU_USUARIO.github.io/Quantika-AI-Lang/)
+## ⚙️ Instalación
+
+Requiere **Python 3.9+**. No necesita librerías externas.
+
+---
+
+## 🤖 Funciones integradas de “IA”
+
+- `ai.classify` → Clasificación de texto con reglas.  
+- `ai.generate` → Respuesta a prompts con plantillas.  
+- `ai.similarity` → Similitud coseno 0..1.  
+- `memory.store` / `memory.recall` → Guardar y recuperar memoria.
+
+---
+
+💙 Hecho con cariño por **ti**.  
+¡Mejora Quantika y compártelo con el mundo!
+
+---
+
+👉 [![Ver página oficial](https://img.shields.io/badge/🌐_Ver%20página%20oficial-Quantika-9A4DFF?style=for-the-badge)](https://robi2025.github.io/Quantika/)
 
 ---
