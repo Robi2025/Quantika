@@ -1,2 +1,5 @@
-# Reconocer archivos .qk como el lenguaje Quantika
+# Treat .qk files as Quantika source code
 *.qk linguist-language=Quantika
+
+# Ensure text files are normalized
+* text=auto

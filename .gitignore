@@ -1,5 +1,42 @@
-.DS_Store
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-.venv/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
 .env
+.venv
+env/
+venv/
+
+# VS Code / PyCharm configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local assets cache (not the final ones we commit)
+assets-cache/
