@@ -1,3 +1,0 @@
-print "Hola Quantika!"
-let nombre = "Viviana"
-print "Bienvenida, {nombre}"
