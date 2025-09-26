@@ -11,6 +11,11 @@
 
 ---
 
+## 🎬 Video Demo
+[▶️ Ver demo](assets/quantika-demo.mp4)
+
+---
+
 ## 🎨 Identidad Visual
 - ![Paleta](assets/palette.png)
 - Logo animado:  
@@ -18,12 +23,7 @@
 
 ---
 
-## 🎬 Video Demo
-[▶️ Ver demo](assets/quantika-demo.mp4)
-
----
-
-## 🚀 Ejemplo rápido
+## Ejemplo rápido
 ```qk
 print "Hola Quantika!"
 let nombre = "Viviana"
@@ -34,3 +34,9 @@ print "Sentimiento: {sentimiento}"
 ```
 
 ---
+
+## Cómo ejecutar
+```bash
+python quantika.py run examples/hello.qk
+python quantika.py run examples/ai_demo.qk
+```

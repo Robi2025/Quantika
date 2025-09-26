@@ -11,15 +11,15 @@
 
 ---
 
+## 🎬 Demo Video
+[▶️ Watch the demo](assets/quantika-demo.mp4)
+
+---
+
 ## 🎨 Visual Identity
 - ![Palette](assets/palette.png)
 - Animated logo:  
   ![Quantika Logo](assets/quantika-logo.gif)
-
----
-
-## 🎬 Demo Video
-[▶️ Watch the demo](assets/quantika-demo.mp4)
 
 ---
 
@@ -34,3 +34,9 @@ print "Sentimiento: {sentimiento}"
 ```
 
 ---
+
+## Run
+```bash
+python quantika.py run examples/hello.qk
+python quantika.py run examples/ai_demo.qk
+```
