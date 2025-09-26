@@ -1,12 +1,9 @@
-# Clasificación simple
 labels = ["positivo","negativo","neutro"]
 ai.classify text: "este servicio es excelente", labels: labels -> sentimiento
 print "Sentimiento: {sentimiento}"
 
-# Generación tipo chatbot
 ai.generate prompt: "Consejo para ahorrar energía en el condominio" -> idea
 print "Idea: {idea}"
 
-# Similitud
 ai.similarity a: "perro en pasillo de acceso", b: "mascota en entrada peatonal" -> sim
 print "Similitud: {sim}"

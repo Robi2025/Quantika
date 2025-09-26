@@ -1,5 +1,36 @@
-# Quantika — mini lenguaje con IA educativa
+# 🌌 Quantika — a tiny AI-flavored toy language
 
-👉 Página oficial con reproductor: https://robi2025.github.io/Quantika/
+![Language](https://img.shields.io/badge/language-Quantika-9A4DFF?style=for-the-badge&logo=github)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-experimental-orange?style=for-the-badge)
 
-Los assets están en `assets/` y `docs/assets/` para GitHub Pages.
+---
+
+## 🚀 Official Website
+👉 [Visit Quantika Website](https://robi2025.github.io/Quantika/)
+
+---
+
+## 🎨 Visual Identity
+- ![Palette](assets/palette.png)
+- Animated logo:  
+  ![Quantika Logo](assets/quantika-logo.gif)
+
+---
+
+## 🎬 Demo Video
+[▶️ Watch the demo](assets/quantika-demo.mp4)
+
+---
+
+## Quick Example
+```qk
+print "Hola Quantika!"
+let nombre = "Viviana"
+print "Bienvenida, {nombre}"
+labels = ["positivo","negativo","neutro"]
+ai.classify text: "este servicio es excelente", labels: labels -> sentimiento
+print "Sentimiento: {sentimiento}"
+```
+
+---
