@@ -1,0 +1,2 @@
+# Reconocer archivos .qk como el lenguaje Quantika
+*.qk linguist-language=Quantika
