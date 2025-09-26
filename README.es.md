@@ -4,24 +4,19 @@
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-experimental-orange?style=for-the-badge)
 
----
-
-## 🚀 Página Oficial
-👉 [Ver página de Quantika](https://robi2025.github.io/Quantika/)
+**Playground en vivo:** https://robi2025.github.io/Quantika/playground.html
 
 ---
 
-## 🎬 Video Demo
-[▶️ Ver demo](assets/quantika-demo.mp4)
+👉 [![Probar en Playground](https://img.shields.io/badge/⚡_Probar_en_Playground-Quantika-9A4DFF?style=for-the-badge)](https://robi2025.github.io/Quantika/playground.html)
 
 ---
 
-## 🎨 Identidad Visual
-- ![Paleta](assets/palette.png)
-- Logo animado:  
-  ![Logo Quantika](assets/quantika-logo.gif)
+## Página oficial
+https://robi2025.github.io/Quantika/
 
----
+## Video demo
+- MP4: https://github.com/robi2025/Quantika/raw/main/assets/quantika-demo.mp4
 
 ## Ejemplo rápido
 ```qk
@@ -31,12 +26,4 @@ print "Bienvenida, {nombre}"
 labels = ["positivo","negativo","neutro"]
 ai.classify text: "este servicio es excelente", labels: labels -> sentimiento
 print "Sentimiento: {sentimiento}"
-```
-
----
-
-## Cómo ejecutar
-```bash
-python quantika.py run examples/hello.qk
-python quantika.py run examples/ai_demo.qk
 ```
